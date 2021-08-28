@@ -5,6 +5,7 @@ Before do
   @nav = Navigator.new
   @toaster = Toaster.new
   @login = LoginScreen.new
+  @cadastro = Cadastro.new
   
   # Clica no botão começar
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
