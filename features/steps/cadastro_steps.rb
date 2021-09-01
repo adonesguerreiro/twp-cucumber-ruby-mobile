@@ -1,4 +1,4 @@
-Dado('que acesso a tela de cadastro') do                                        
+Dado('que acesso a tela de Cadastro') do                                        
     @nav.tap_hamburger
     @nav.tap_by_text("FORMS")
     @nav.tap_by_text("CADASTRO")

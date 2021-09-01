@@ -6,12 +6,12 @@ Before do
   @toaster = Toaster.new
   @login = LoginScreen.new
   @cadastro = Cadastro.new
-  
+  @dialogs = Dialogs.new
   # Clica no botão começar
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
 end
 
-After do |scenario|
+After do |sCenário|
   binary_shot = driver.screenshot_as(:base64)
 
   temp_shot = "logs/temp_shot.png"

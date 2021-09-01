@@ -2,7 +2,7 @@
 
 Funcionalidade: Login
     
-    Cenario: Login com sucesso
+    Cenário: Login com sucesso
 
         Dado que acesso a tela login
         Quando eu submeto as credenciais: 

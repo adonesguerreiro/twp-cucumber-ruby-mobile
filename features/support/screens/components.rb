@@ -18,3 +18,9 @@ class Toaster
         return find_element(xpath: "//android.widget.Toast")
     end
 end
+
+class Dialogs 
+    def dialogs_info
+        return find_element(xpath: "//android.widget.FrameLayout/android.view.ViewGroup")
+    end
+end

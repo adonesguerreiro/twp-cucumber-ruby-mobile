@@ -58,7 +58,7 @@ cucumber no cmd/terminal, ele irá executar todos os casos de testes.
 
 13 - Caso queira realizar a execução por arquivo basta ir no cmd/terminal digitar o comando cucumber features\specs\arquivo.feature
 
-14 - Caso queira realizar a execução por cenário bastar digitar o comando cucumber -t @nomedocenario  definidos no arquivos .feature, agora caso opte por executar todos os cenários basta digitar no cmd/terminal cucumber.
+14 - Caso queira realizar a execução por cenário bastar digitar o comando cucumber -t @nomedoCenário  definidos no arquivos .feature, agora caso opte por executar todos os cenários basta digitar no cmd/terminal cucumber.
 
 15 - Assim que for executado o teste e quiser visualizar o relatório do Allure basta digitar o comando allure serve logs que o relatório será aberto navegador.
 

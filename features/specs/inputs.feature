@@ -2,21 +2,21 @@
 
 Funcionalidade: Inputs
     @radio
-    Cenario: Radio Button
+    Cenário: Radio Button
 
         Dado que acesso a tela Botões de Radio
         Quando eu escolho a opção Ruby 
         Então esta opção deve ser marcada
 
     @checkbox
-    Cenario: Checkbox 
+    Cenário: Checkbox 
     
         Dado que acesso a tela de Checkbox
         Quando eu marco a opção Ruby
         Então está opção deve estar marcada
 
     @checkbox2
-    Cenario: Todas as techs que usam o Appium
+    Cenário: Todas as techs que usam o Appium
 
         Dado que acesso a tela de Checkbox
         Quando eu marco as seguintes techs:
