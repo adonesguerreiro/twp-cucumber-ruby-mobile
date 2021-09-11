@@ -1,4 +1,4 @@
-Dado('que acesso a tela Botões de Radio') do
+  Dado('que acesso a tela Botões de Radio') do
     @nav.tap_hamburger
     @nav.tap_by_text("INPUTS")
     @nav.tap_by_text("BOTÕES DE RADIO")
